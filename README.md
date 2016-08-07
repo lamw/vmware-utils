@@ -38,7 +38,7 @@ This Dockerfile will create a Docker Container and install the following VMware 
 * vCloud Air Recovery as a Service CLI (RaaS)
 * vCloud SDK for Python
 * vCloud Tools
-* vRealize Cloud Client
+* vSphere SDK for Perl (viperl)
 
 ## How
 
@@ -58,7 +58,7 @@ vmware-utils
 ├── VMware-ovftool-4.0.0-2301625-lin.x86_64.bundle
 ├── VMware-vSphere-CLI-5.5.0-2043780.x86_64.tar.gz
 ├── VMware-vix-disklib-5.5.4-2454786.x86_64.tar.gz
-└── cloudclient-3.1.0-2375258-dist.zip
+└── VMware-vSphere-Perl-SDK-5.5.0-2043780.x86_64.tar.gz
 ```
 
 Now you are ready to build your container!
